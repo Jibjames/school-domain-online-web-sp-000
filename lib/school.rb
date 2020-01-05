@@ -28,5 +28,6 @@ class School
     roster.each do |key, value|
       roster[key] = value.sort
     end
+    roster
   end
 end
