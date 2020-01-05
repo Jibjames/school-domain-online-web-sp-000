@@ -25,7 +25,7 @@ class School
   end
 
   def sort()
-    roster = roster.values.sort_by
+    roster = roster.values.sort
     roster
   end
 end
