@@ -26,5 +26,6 @@ class School
 
   def sort()
     roster.values.sort
+    roster
   end
 end
